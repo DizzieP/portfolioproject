@@ -5,6 +5,13 @@
         <link href=style.css rel="stylesheet" type="text/css">
         <link href="https://fonts.cdnfonts.com/css/metta-dahlia" rel="stylesheet">
         <script src="https://kit.fontawesome.com/23dd182938.js" crossorigin="anonymous"></script>
+        <script>
+        
+        element.onclick = function() {
+            let element = document.getElementById('about-me');
+            element.style.backgroundColor = 'purple';
+        }
+        </script>
     </head>
     <body>
         <div class="navbar">
@@ -20,7 +27,7 @@
         <div id="aboutme" class="profile">
         <img class="profile-image" src="/Users/lizzypita/Desktop/portfolioproject/Screenshot 2023-04-18 at 11.25.32 AM (1).png">
         <div class="profile-text">
-        <h2 class="sub-header">About Me</h2>
+        <h2 class="sub-header" id="about-me">About Me</h2>
         <p style="color: #f06dab; font-size: 30px; line-height: 1;">Kia ora!</p>
         <p>I am a <strong>Front-End Engineer</strong> based in The Land of The Long White Cloud - Aotearoa/New Zealand.</p>
         <p>I have designed and created numerous websites for both clubs and companies throughout my course at Codecademy.</p>

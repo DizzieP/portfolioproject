@@ -38,7 +38,7 @@ body {
 
 .projects-text {
     color: black;
-    z-index: 2;
+    z-index: 3;
     width: 350px;
     font-size: 25px;
     position: absolute;
