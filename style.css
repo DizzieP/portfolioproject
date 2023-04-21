@@ -103,6 +103,15 @@ body {
     padding-bottom: 0px;
 }
 
+#me {
+    font-size: 45px;
+    text-align: center;
+    color: #F28383;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;  
+}
+
 #aboutme {
     
     justify-items: end;
