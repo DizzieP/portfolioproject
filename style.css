@@ -38,7 +38,7 @@ body {
 
 .projects-text {
     color: black;
-    z-index: 3;
+    z-index: 2;
     width: 350px;
     font-size: 25px;
     position: absolute;
@@ -46,6 +46,18 @@ body {
     text-align: center;
     margin: auto;
     
+}
+
+.text {
+    color: black;
+    z-index: 2;
+    width: 500px;
+    font-size: 25px;
+    position: absolute;
+    padding-top: 650px;
+    text-align: center;
+    margin: auto;
+    padding-left: 480px; 
 }
 
 .project-links {
@@ -83,7 +95,7 @@ body {
 
 .skills-text {
     color: black;
-    z-index: 2;
+    z-index: 4;
     width: 350px;
     font-size: 25px;
     position: absolute;
@@ -107,17 +119,44 @@ body {
     font-size: 45px;
     text-align: center;
     color: #F28383;
-    margin-top: 20px;
+    margin-top: 570px;
     margin-bottom: 10px;
-    padding-bottom: 0px;  
-    z-index: 4;
+    padding-bottom: 0px; 
+    padding-left: 600px; 
+    z-index: 3;
     position: absolute;
     
+}
+
+#kiaora {
+    color: black;
+    z-index: 3;
+    width: 350px;
+    font-size: 25px;
+    position: absolute;
+    padding-top: 640px;
+    text-align: center;
+    margin: auto;
+    padding-left: 530px;
+}
+
+#text {
+    color: black;
+    z-index: 3;
+    width: 350px;
+    font-size: 25px;
+    position: absolute;
+    padding-top: 660px;
+    text-align: right;
+    margin: auto;
+    padding-left: 410px;
+
 }
 
 .profile-image {
     position: absolute;
     width: 1440px;
+    height: auto;
     z-index: 1;
     border-bottom: 3px solid white;
 }
