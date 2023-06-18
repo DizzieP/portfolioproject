@@ -2,72 +2,58 @@
 <html>
     <head>
         <title>Lizzy Pita - Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport"><content="width=device-width", initial-scale=1.0>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href=style.css rel="stylesheet" type="text/css">
         <link href="https://fonts.cdnfonts.com/css/metta-dahlia" rel="stylesheet">
         <script src="https://kit.fontawesome.com/23dd182938.js" crossorigin="anonymous"></script>
-        <script src="./portfolio.js"></script>
     </head>
     <body>
-        <div class="navbar">
-            <div class="navbar-header">Lizzy Pita</div>
-            <div class="menu">
-            <a href="#about me" style="padding-right: 20px;">About Me</a>
-            <a href="#projects" style="padding-right: 20px;">Projects</a>
-            <a href="#skills" style="padding-right: 20px;">Skills</a>
-            <a href="#contact" style="padding-right: 20px;">Contact</a>
-            </div>
-        </div>
-    </div>
-        <div id="aboutme">
-        <img class="profile-image" style="width:1440px;height:auto;" src="./resources/images/profileimage.jpeg">
-        <h2 id="me">About Me</h2>
-        <p style="color: #f06dab; font-size: 30px; line-height: 1" id="kiaora">Kia ora!</p>
-        <div class="text">
-        <p>I am a <strong>Front-End Engineer</strong> based in The Land of The Long White Cloud - Aotearoa/New Zealand.</p>
-        <p>I have designed and created numerous websites for both clubs and companies throughout my course at Codecademy.</p>
-        <p>I have very <strong>strong design skills</strong> and an extensive knowledge in <strong>web development</strong>.</p>
-        <p>I look forward to hearing from you!</p>
-        </div>
-    </div>
-        </div>
-        <div id="projects">
-            <div class="projects-text">
-                <h2 class="sub-header">Projects</h2>
-                <ul class="project-links">
+        <div class="grid-container">
+            <div class="item-a">Lizzy Pita</div>
+            <div class="item-b"><a href="#aboutme">About Me</a></div>
+            <div class="item-c"><a href="#projects">Projects</a></div>
+            <div class="item-d"><a href="#skills">Skills</a></div>
+            <div class="item-e"><a href="#contact">Contact</a></div>
+            <img class="item-f" src="/Users/lizzypita/Desktop/portfolioproject/resources/images/profileimage.jpeg">
+                <div class="item-g" id="aboutme">
+                    <h2 class="sub-header">About Me</h2>
+                    <p style="color: #ee8fbc;">Kia ora!</p>
+                    <p>I am a <strong>Front-End Engineer</strong> based in The Land of The Long White Cloud - Aotearoa/New Zealand.</p>
+                    <p>I have designed and created numerous websites for both clubs and companies throughout my course at Codecademy.</p>
+                    <p>I have very <strong>strong design skills</strong> and an extensive knowledge in <strong>web development</strong>.</p>
+                    <p>I look forward to hearing from you!</p>
+                    </div>
+                <div class="item-h" id="projects">
+                    <h2 class="sub-header">Projects</h2>
+               <ul class="links">
                 <li><a href="https://dizziep.github.io/astitchintime/" target="_blank">A Stitch In Time</a></li>
                 <li><a href="https://dizziep.github.io/theseasonalstitcher/" target="_blank">The Seasonal Stitcher</a></li>
                 <li><a href="https://dizziep.github.io/excursion/" target="_blank">Excursion</a></li>
                 </ul>
+                </div>
+            <div class="item-i" id="skills">
+                <h2 class="sub-header">Skills</h2><br>
+                <i class="fa-brands fa-html5 fa-4x"></i>
+                <i class="fa-brands fa-css3-alt fa-4x"></i>
+                <i class="fa-brands fa-square-js fa-4x"></i>
+                <i class="fa-brands fa-git fa-4x"></i>
             </div>
-        </div>
-        <div id="skills">
-            <div class="skills-text">
-            <h2 class="sub-header">Skills</h2>
-            <ul class="skill-icons">
-            <li><i class="fa-brands fa-html5 fa-3x" style="padding-bottom: 20px;"></i></li>
-            <li><i class="fa-brands fa-css3-alt fa-3x" style="padding-bottom: 20px;"></i></li>
-            <li><i class="fa-brands fa-square-js fa-3x" style="padding-bottom: 20px;"></i></li>
-            <li><i class="fa-brands fa-git fa-3x" style="padding-bottom: 20px;"></i></li>
-            </ul>
-        </div>
-        </div>
-    </div>
-        <br>
-        <div id="contact">
-            <h2 class="sub-header">Contact</h2>
+                <div class="item-j" id="contact">
+                    <h2 class="sub-header">Contact</h2>
             <ul class="contact-icons">
-            <i class="fa-solid fa-phone fa-4x"><p class="contact-text">021 234 567&nbsp;&nbsp;|&nbsp;&nbsp;</p></i>
-            <i class="fa-solid fa-envelope fa-4x"><p class="contact-text">lizzypita@coding.com</p></i>
+            <i class="fa-solid fa-phone fa-2x"><p class="contact-text">021 234 567&nbsp;&nbsp;|&nbsp;&nbsp;</p></i>
+            <i class="fa-solid fa-envelope fa-2x"><p class="contact-text">lizzypita@coding.com</p></i>
             </ul>
-        </div>
-        <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fun fact! I've been a student at Codecademy for
+            </div>
+        <div class="item-k">
+            <p>Fun fact! I've been a student at Codecademy for
             <span id="time-container">0</span> seconds!
           </p>
-    </div>
-    <div class="footer">
-        <i class="fa-regular fa-copyright" style="align-items: center; font-size: 25px; margin-left: 20px; color: white;"><p class="footer-text">&nbsp;Lizzy Pita</p></i>
-    </div>
+          </div>
+    <p class="item-l"><i class="fa-regular fa-copyright"></i> Lizzy Pita</p>
+</div>
     </body>
     <script>
         const timeContainer = document.getElementById("time-container");
@@ -83,6 +69,5 @@
     
           timeContainer.innerText = intlNumberFormatter.format(difference);
         }, 1000);
-      </script>
-        
+      </script> 
 </html>
