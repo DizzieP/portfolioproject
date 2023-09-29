@@ -32,6 +32,7 @@ div.item-a {
     width: 100%;
     background-color: #f06dab;
     text-align: center;
+    animation: zoomInLeft 5s;
 }
 
 div.item-b {
