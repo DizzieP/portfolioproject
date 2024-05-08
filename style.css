@@ -12,8 +12,6 @@ body {
     background-color: hsla(336, 71%, 95%, 1);
 }
 
-
-
 div.grid-container {
     display: grid;
     margin: 0 auto;
@@ -22,6 +20,12 @@ div.grid-container {
     width: 100%;
     justify-content: center;
     align-content: center;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 div.item-a {
@@ -107,7 +111,10 @@ img.item-f {
     align-self: center; 
 }
 
-.links {
+ul.links {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     list-style-type: none;
     text-align: center;
     font-size: 1.5rem;
